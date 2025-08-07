@@ -1,6 +1,104 @@
-.orange-text {
+li {
+
+    color:orange;
+}
+
+.orange-text{
 
     color:orange;
 }
 
 
+h1 {
+
+    color:orange;
+    background-color: snow;
+}
+
+h2 {
+
+    color:orange;
+}
+
+p{
+
+    color:orange;
+}
+
+a{
+
+    background-color:orange;
+}
+
+*{
+
+    text-align: center;
+}
+
+
+
+img {
+
+    height:200px; width: 340px;
+}
+
+footer {
+
+
+    background-color: snow;
+}
+
+.note{
+
+    height: 150px; width: 150px;
+}
+
+ #fantasy{
+      font-family: fantasy;
+    }
+
+li ,p,h2 {
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+
+    text-align: start;
+}
+
+#shadowBox {
+    background-color: rgb(187, 10, 10);
+    /* Fallback color */
+    background-color: rgb(236, 199, 222);
+    /* Black w/opacity/see-through */
+    border: 10px solid;
+    border-color: transparent;
+    animation: rainbow_animation 1s;
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 9s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
