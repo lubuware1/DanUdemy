@@ -1,0 +1,229 @@
+
+A Simple Sample Web Page
+
+By Sheldon Brown
+Demonstrating a few HTML features
+HTML is really a very simple language. It consists of ordinary text, with commands that are enclosed by "<" and ">" characters, or bewteen an "&" and a ";".
+You don't really need to know much HTML to create a page, because you can copy bits of HTML from other pages that do what you want, then change the text!
+
+This page shows on the left as it appears in your browser, and the corresponding HTML code appears on the right. The HTML commands are linked to explanations of what they do.
+
+Line Breaks
+HTML doesn't normally use line breaks for ordinary text. A white space of any size is treated as a single space. This is because the author of the page has no way of knowing the size of the reader's screen, or what size type they will have their browser set for.
+If you want to put a line break at a particular place, you can use the "<BR>" command, or, for a paragraph break, the "<P>" command, which will insert a blank line. The heading command ("<H4></H4>") puts a blank line above and below the heading text.
+
+Starting and Stopping Commands
+Most HTML commands come in pairs: for example, "<H4>" marks the beginning of a size 4 heading, and "</H4>" marks the end of it. The closing command is always the same as the opening command, except for the addition of the "/".
+Modifiers are sometimes included along with the basic command, inside the opening command's < >. The modifier does not need to be repeated in the closing command.
+
+This is a size "1" heading
+This is a size "2" heading
+This is a size "3" heading
+This is a size "4" heading
+This is a size "5" heading
+This is a size "6" heading
+Copyright © 1997, by Sheldon Brown
+If you would like to make a link or bookmark to this page, the URL is:
+https://www.sheldonbrown.com/web_sample1.html
+<HEAD>
+<TITLE>Basic HTML Sample Page</TITLE>
+</HEAD>
+<BODY BGCOLOR="WHITE">
+<CENTER>
+<H1>A Simple Sample Web Page</H1>
+
+ 
+
+  <IMG SRC="https://www.sheldonbrown.com/images/scb_eagle_contact.jpeg">
+
+ 
+
+ 
+
+  <H4>By Sheldon Brown</H4>
+
+<H2>Demonstrating a few HTML features</H2>
+
+</CENTER>
+
+HTML is really a very simple language. It consists of ordinary text, with commands that are enclosed by "<" and ">" characters, or bewteen an "&" and a ";". <P>
+ 
+
+You don't really need to know much HTML to create a page, because you can copy bits of HTML from other pages that do what you want, then change the text!<P>
+ 
+
+This page shows on the left as it appears in your browser, and the corresponding HTML code appears on the right. The HTML commands are linked to explanations of what they do.
+ 
+
+ 
+
+<H3>Line Breaks</H3>
+
+HTML doesn't normally use line breaks for ordinary text. A white space of any size is treated as a single space. This is because the author of the page has no way of knowing the size of the reader's screen, or what size type they will have their browser set for.<P>
+
+ 
+
+If you want to put a line break at a particular place, you can use the "<BR>" command, or, for a paragraph break, the "<P>" command, which will insert a blank line. The heading command ("<4></4>") puts a blank line above and below the heading text.
+
+ 
+
+<H4>Starting and Stopping Commands</H4>
+
+Most HTML commands come in pairs: for example, "<H4>" marks the beginning of a size 4 heading, and "</H4>" marks the end of it. The closing command is always the same as the opening command, except for the addition of the "/".<P>
+
+ 
+
+Modifiers are sometimes included along with the basic command, inside the opening command's < >. The modifier does not need to be repeated in the closing command.
+
+ 
+
+ 
+
+<H1>This is a size "1" heading</H1>
+
+<H2>This is a size "2" heading</H2>
+
+<H3>This is a size "3" heading</H3>
+
+<H4>This is a size "4" heading</H4>
+
+<H5>This is a size "5" heading</H5>
+
+<H6>This is a size "6" heading</H6>
+
+<center>
+
+<H4>Copyright © 1997, by
+<A HREF="https://www.sheldonbrown.com/index.html">Sheldon Brown</A>
+</H4>
+
+If you would like to make a link or bookmark to this page, the URL is:<BR> https://www.sheldonbrown.com/web_sample1.html</body>
+
+ 
+ 
+
+
+<HEAD></HEAD>
+The "<HEAD></HEAD>" part of the document does not show in the main browser window, but it can give useful information to browsers or to search engines.
+ 
+
+ 
+
+ 
+
+ 
+
+
+<TITLE></TITLE>
+The only part of the "<HEAD></HEAD>" that is normally visible is the <TITLE>Basic HTML Sample Page</TITLE>, which usually appears in a small window on top of the browser screen. When users add your site to their hotlists, the <TITLE></TITLE> you have chosen will appear on their hotlists.
+ 
+
+ 
+
+ 
+
+ 
+
+
+<BODY></BODY>
+The <BODY> is the main part of the page. It is good practice to use a </BODY> at the end of the page, but this is not absolutely necessary.
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+<BODY BGCOLOR="WHITE"></BODY>
+BGCOLOR="" is a sub command of the <BODY> command. It specifies the background color for the page. The color may be specified by name, or by a hex triplet number.
+ 
+
+ 
+
+
+ 
+ 
+
+
+<CENTER></CENTER>
+The <CENTER> command causes everything following it to be centered on the page, until it is canceled by the use of the </CENTER> command, which causes everything to be left-justified.
+ 
+
+ 
+
+ 
+
+ 
+
+
+<IMG SRC="...">
+The <IMG SRC="https://www.sheldonbrown.com/images/scb_eagle_contact.jpeg"> command places an image on the screen. The part between the quotation marks is the URL or partial address of the image. In this case, the image called for is called "scb_eagle_contact.jpeg", and it resides on the subdirectory of my sheldonbrown.com site that I call "images".
+Since the image subdirectory is in the same directory as this document, I could have used the relative address:
+  images/scb_eagle_contact.jpeg
+instead of the full URL:
+  https://www.sheldonbrown.com/images/scb_eagle_contact.jpeg 
+
+ 
+
+
+ 
+
+ 
+
+
+<H1></H1>...<H6></H6>
+There are 6 levels of headings available in HTML, <H1></H1> being the largest, <H6></H6> the smallest. Headings are automatically in bold-face type, and automatically have a blank line above and below them.
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+<P>
+<P> creates a paragraph break. It forces a return and two line feeds, so there will be a blank line between whatever preceded the <P> and the next line.
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+<A HREF="...">...</A>
+<A HREF="[destination url]">[highlighted text/image]</A> is the command for a hyperlink. The [highlighted text/image] appears in the document, normally underlined and in the highlight color. When you click on the [highlighted text/image] your browser takes you off to the site [destination url].
+The destination site would begin with "http://www." if the site is an external one, on a different server. If the destination is on the same machine, a "relative" URL may be used, just giving the file name (web_sample1.html, for instance) if the file is in the same subdirectory, or a path plus file name (webstuff/web_sample1.html, for instance) if the file is elsewhere on the same machine as the page with the link.
+
+Otpionally, the [destination url] may end with #[anchor] if it is to point to an anchor point in the destination page, rather than to the top of the page.
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+<BR>
+<BR> creates a line break. It forces a return and a single line feed. It is similar to <P>, except that it does not put a blank line between the two lines.
+ 
+
+ 
+
+
+Sheldon Brown Web Services
+Copyright © 1997, by Sheldon Brown
+since September 30, 1997
+Updated Sunday, May 7, 2000
+If you would like to make a link or bookmark to this page, the URL is:
+https://www.sheldonbrown.com/web_sample1.html
