@@ -5,6 +5,7 @@
 
 img {
     height:200px; width: 340px;
+    border-radius: 20%;
 }
 
 footer {
@@ -29,13 +30,21 @@ li {
     text-align: start;
 }
 
+#textbox {
+
+    background-color: rgb(214, 233, 248) ;
+    border-radius: 10%;
+}
+
+
 #shadowBox {
     background-color: rgb(187, 10, 10);
     /* Fallback color */
-    background-color: salmon;
+    background-color: rgb(214, 233, 248);
     /* Black w/opacity/see-through */
     border: 1rem solid;
     border-color: transparent;
+    border-radius: 10%;
     
 }
 

@@ -1,0 +1,24 @@
+h1, h2 {
+    color: blueviolet;
+}
+
+li.done {
+color: aqua;
+
+}
+
+ul li{
+    color: green;
+}
+
+
+
+.box > p {
+
+    color: firebrick;
+}
+
+ul p.done {
+
+    color:cadetblue;
+}
